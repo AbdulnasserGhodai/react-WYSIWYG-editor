@@ -1,0 +1,38 @@
+.container {
+    background-color: #f0f8ff;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    text-align: center;
+}
+
+.controlButtonsContainer {
+    margin-top: 100px;
+}
+
+.controlledButton,
+.uncontrolledButton,
+.fakeAPIButton {
+    font-size: 16px;    
+    background-color: white;
+    padding: 10px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(10, 12, 53);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.fakeAPIButton {
+    border-radius: 0px 20px 20px 0px
+}
+
+.uncontrolledButton {
+    border-radius: 20px 0px 0px 20px
+}
+
+.activeControlButton {
+    background-color: #4d8eff;
+    color: white;
+}

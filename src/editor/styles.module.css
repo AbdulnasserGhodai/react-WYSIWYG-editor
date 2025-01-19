@@ -1,0 +1,48 @@
+.container {
+    margin: 100px 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    min-height: 50vh;
+    cursor: text;
+}
+
+.toolbarContainer {
+    background-color: #d3e4ff;
+    padding: 10px;
+    height: 30px;
+    text-align: start;
+}
+
+.toolbarButton {
+    margin: 0px 8px;
+    background-color: #f0f8ff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+    width: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.activeButton {
+    border-bottom: 3px solid #4d8eff;
+}
+
+.saveButton {
+    background-color: #4d8eff;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.saveButton:hover {
+    font-weight: bold;
+}
