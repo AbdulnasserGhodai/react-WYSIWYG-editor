@@ -24,7 +24,7 @@ Make sure you have the following installed:
 2. **Navigate to the project directory:**:
 
    ```bash
-   cd ososs-frontend-task
+   cd react-WYSIWYG-editor
    ```
 
 3. **Navigate to the project directory:**:
